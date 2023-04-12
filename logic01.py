@@ -7,5 +7,9 @@ def main(a,b,c):
         c(int): parameter c
     Returns:
         bool: answer
-    """
-    return
+    """ 
+    return a>b>c or c>b>a
+a=int(input())
+b=int(input())
+c=int(input())
+print(main(a,b,c))
