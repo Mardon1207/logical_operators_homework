@@ -6,4 +6,6 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return a//10000!=0 and a//10000<=9
+a=int(input())
+print(main(a))
