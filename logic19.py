@@ -8,4 +8,6 @@ def main(x):
     Returns:
         bool: answer
     """
-    return 
+    return x//10==x%10 or x//100==x%10
+x=int(input())
+print(main(x))
