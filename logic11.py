@@ -6,4 +6,6 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return a//100!=0 and a//100<=9
+a=int(input())
+print(main(a))
